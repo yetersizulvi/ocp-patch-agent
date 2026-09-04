@@ -1,0 +1,36 @@
+ocp-patch-agent/
+├── Dockerfile
+├── requirements.txt
+├── README.md
+├── BUILD.md
+├── FILE_TREE.txt
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── master.py
+│   ├── config.py
+│   ├── models.py
+│   ├── runtime.py
+│   ├── scheduler.py
+│   ├── collectors.py
+│   ├── llm.py
+│   ├── transport.py
+│   ├── security.py
+│   └── logging_config.py
+├── config/
+│   └── flows.example.yaml
+├── deploy/
+│   ├── 00-namespace-rbac.yaml
+│   ├── 01-configmap.yaml
+│   ├── 02-secret.example.yaml
+│   ├── 03-deployment.yaml
+│   └── 04-master.yaml
+├── docs/
+│   └── MASTER_CONTRACT.md
+├── scripts/
+│   └── export_openapi.py
+├── openapi.json
+└── tests/
+    ├── __init__.py
+    ├── test_agent.py
+    └── test_master.py

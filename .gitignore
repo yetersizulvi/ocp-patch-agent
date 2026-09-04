@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+*.zip
+*.b64
+.coverage
